@@ -1,0 +1,223 @@
+/* Main wrapper styles */
+.luua-wrap, .luua-settings-wrap {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Filter form styles */
+.luua-filter-form {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Radio group styles */
+.luua-radio-group {
+    margin-bottom: 10px;
+}
+
+.luua-radio-group label {
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+/* Listing count styles */
+.luua-listing-count {
+    font-style: italic;
+    color: #555;
+    font-size: 14px;
+}
+
+/* Table styles */
+.luua-table {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Button styles */
+.luua-button {
+    background: #0073aa;
+    border-color: #006799;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.luua-button:hover {
+    background: #006799;
+    border-color: #005177;
+}
+
+/* Primary button styles */
+.luua-button-primary {
+    background: #2271b1;
+    border-color: #1e5e93;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.luua-button-primary:hover {
+    background: #1e5e93;
+    border-color: #164875;
+}
+
+/* Pagination styles */
+.luua-pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.luua-pagination .page-numbers {
+    padding: 8px 12px;
+    margin: 0 4px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.luua-pagination .current {
+    background: #0073aa;
+    color: #fff;
+    border-color: #0073aa;
+}
+
+/* No results styles */
+.luua-no-results {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Analytics styles */
+.luua-analytics {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.luua-analytics p {
+    margin: 10px 0;
+}
+
+/* Status styles */
+.luua-status {
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.luua-status.queued {
+    background: #f39c12;
+}
+
+.luua-status.sent {
+    background: #27ae60;
+}
+
+.luua-status.failed {
+    background: #c0392b;
+}
+
+/* Navigation tab styles */
+.nav-tab-wrapper {
+    margin-bottom: 20px;
+}
+
+.nav-tab {
+    background: #f1f1f1;
+    padding: 10px 20px;
+    margin-right: 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+.nav-tab-active {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.nav-tab-disabled {
+    background: #e0e0e0;
+    color: #777;
+    cursor: not-allowed;
+}
+
+/* Form table styles */
+.luua-settings-wrap .form-table {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Custom form table row styles */
+.luua-form-table-row {
+    border: none !important; /* Override WordPress default border */
+    margin: 10px 0 !important; /* Add spacing between rows */
+}
+
+/* Custom form table header styles */
+.luua-form-table-header {
+    width: 200px !important; /* Set a fixed width for consistency */
+    padding: 10px 15px 10px 0 !important; /* Override WordPress default padding */
+    vertical-align: top !important; /* Ensure proper alignment */
+    font-weight: 600 !important; /* Slightly bolder text */
+    border: none !important; /* Remove any default borders */
+}
+
+/* Analytics styles */
+.luua-analytics {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Badge styles */
+.nav-tab-wrapper .luua-badge {
+    background: #f39c12;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+/* Notice styles */
+.luua-notice {
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/* Logs filter styles */
+.luua-logs .luua-filter {
+    margin-bottom: 15px;
+}
+
+/* Success and error message styles */
+.luua-success {
+    color: #27ae60;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+
+.luua-error {
+    color: #c0392b;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 5px 0;
+}
