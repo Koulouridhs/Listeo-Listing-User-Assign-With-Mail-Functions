@@ -2,7 +2,7 @@
 /*
 Plugin Name: Listeo Listing User Assign
 Description: A plugin for bulk user creation from custom post type "listing" with customizable settings and email queuing.
-Version: 1.2
+Version: 2.0
 Author: George Koulouridhs
 Text Domain: listeo-listing-user-assign
 */
